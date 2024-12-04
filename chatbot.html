@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript Chatbot</title>
+    <link rel="stylesheet" href="chatbot.css">
+  <link rel="stylesheet" href="hometoggle.css">
+
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">VK Trends</div>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <!-- <li><a href="#women">Women</a></li> -->
+          <!-- <li><a href="#kids">Kids</a></li> -->
+          <li><a href="chatbot.html">Bot</a></li>
+          <li><a href="about.html">About Us</a></li> 
+          <li><a href="contact.html">Contact</a></li> 
+
+        </ul>
+        <div class="nav-icons">
+     <button id="toggle-button">Switch to Dark Mode</button>
+          
+          <a href="#search">🔍</a>
+          <a href="#wishlist">❤️</a>
+          <a href="">🛒</a>
+          </div>
+</nav>
+
+    <!-- Chat window to display messages -->
+    <div id="chat-window" style="border: 1px solid #070907; padding: 10px; width: 300px; height: 400px; overflow-y: auto; margin-bottom: 10px;">
+        <!-- Chat messages will appear here -->
+    </div>
+    <!-- Input box and button to send user message -->
+    <input type="text" id="user-input" placeholder="Type your message..." style="width: 200px;">
+    <button onclick="sendMessage()">Send</button>
+
+      <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#about">About Us</a>
+    </div> 
+    <p id="kt">KEEP IN TOUCH</p>
+    <div class="social-links">
+      <a href="#facebook">Facebook</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#twitter">Twitter</a>
+    </div>
+    <p>&copy; 2024 VK Trends</p>
+  </footer> 
+
+    <script src="chatbot.js"></script>
+
+     <!-- Toggle button for light/dark mode -->
+    
+
+    <!-- JavaScript for toggle functionality -->
+    <script src="home.js"></script>
+
+
+
+</body>
+</html>
