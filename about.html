@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | VK Trends</title>
+  <link rel="stylesheet" href="hometoggle.css">
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  .nav-links li {
+    margin: 0 0.5rem;
+  }
+  .nav-links a {
+    color: #fff;
+  }
+  .nav-icons a {
+    color: #fff;
+    margin-left: 1rem;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: url('hero-image.jpg') no-repeat center/cover;
+    color: #fff;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .cta-button {
+    padding: 0.75rem 2rem;
+    background-color: #f28b18;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+        
+        /* About Content */
+        .about-content {
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about-section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            /* background-color: #fff; */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-content h2 {
+            color: #44a637;
+            margin-bottom: 1rem;
+        }
+
+        .about-section p, .about-section ul {
+            text-align: justify;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer Styles */
+    .footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .footer-links,
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+  }
+  .footer-links a,
+  .social-links a {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  #kt{
+    margin-top: 8px ;
+  }
+  a{
+    text-decoration: none;
+  }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navbar  -->
+  <nav class="navbar">
+    <div class="logo">VK Trends</div>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="product.html">Product</a></li>
+      
+       <li><a href="chatbot.html">Bot</a></li>
+       <li><a href="about.html">About Us</a></li> 
+       <li><a href="contact.html">Contact</a></li> 
+
+    </ul> 
+    <div class="nav-icons">
+     <button id="toggle-button">Switch to Dark Mode</button>
+
+      <a href="#search">🔍</a>
+      <a href="#wishlist">❤️</a>
+      <a href="#cart">🛒</a>
+    </div>
+  </nav> 
+        <div class="container">
+            <!-- Who We Are Section -->
+            <div class="about-section">
+                <h2>Who We Are</h2>
+                <p>VK Trends is your go-to <strong>fashion destination</strong>. We blend <strong>style</strong>, <strong>quality</strong>, and <strong>affordability</strong> to offer a diverse collection of clothing for men, women, and children.</p>
+            </div>
+
+            <!-- Our Promise Section -->
+            <div class="about-section">
+                <h2>Our Promise</h2>
+                <ul>
+                    <li><strong>Quality:</strong> Premium and durable clothing that makes you look and feel your best.</li>
+                    <li><strong>Affordability:</strong> Trendy styles at budget-friendly prices.</li>
+                    <li><strong>Sustainability:</strong> Eco-friendly and sustainable fashion choices.</li>
+                    <li><strong>Customer Satisfaction:</strong> Seamless shopping experience with reliable support.</li>
+                </ul>
+            </div>
+
+            <!-- Our Vision Section -->
+            <div class="about-section">
+                <h2>Our Vision</h2>
+                <p>Our vision is to empower individuals to express their uniqueness through <strong>fashion</strong> while making a positive impact on society and the environment.</p>
+            </div>
+        </div>
+    </section>
+
+        <footer class="footer">
+            <div class="footer-links">
+              <a href="#faq">FAQ</a>
+              <a href="#contact">Contact Us</a>
+              <a href="#about">About Us</a>
+            </div> 
+            <p id="kt">KEEP IN TOUCH</p>
+            <div class="social-links">
+              <a href="#facebook">Facebook</a>
+              <a href="#instagram">Instagram</a>
+              <a href="#twitter">Twitter</a>
+            </div>
+            <p>&copy; 2024 VK Trends</p>
+          </footer> 
+      <script src="home.js"></script>
+        
+</body>
+</html>
