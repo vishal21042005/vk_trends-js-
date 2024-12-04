@@ -1,1 +1,1 @@
-# vk_trends-js-
+# vk_trends
